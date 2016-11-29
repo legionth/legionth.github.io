@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding HTT"
+title: "Understanding HTTP"
 date: 2016-11-29
 ---
 
