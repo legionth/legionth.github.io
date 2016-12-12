@@ -3,24 +3,15 @@ layout: default
 title: Greetings
 ---
 <div class="container">
-
-<div class="blurb">
-    <h1>Hi there,</h1>
-    <p> My name is Niels and welcome to my little blog. Just a warning at the beginning, you will find many typo's and a few wrong written sentences.</p>
-    <p> Why a blog? Well I have often difficulties to understand something, I often need explanation for myself with my own words. Another point is
-    I often have to research soemthing, in this time I feel unprodictive because I don't produce code. I just write it down so I feel a little more productive .-)</p>
-    
-    <p> Recent blog posts:</p>
-    {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endfor %}
-    
-    <p>
-        <ul>
-	       <li><a href="/">Home</a></li>
-	       <li><a href="/about">About</a></li>
-	       <li><a href="/blog">Blog</a></li>
-	    </ul>
-    </p>
-</div>
+	<div class="blurb">
+	    <h1>Hi there,</h1>
+	    <p> My name is Niels and welcome to my little blog. Just a warning at the beginning, you will find many typo's and a few wrong written sentences.</p>
+	    <p> Why a blog? Well I have often difficulties to understand something, I often need explanation for myself with my own words. Another point is
+	    I often have to research soemthing, in this time I feel unprodictive because I don't produce code. I just write it down so I feel a little more productive .-)</p>
+	    
+	    <p> Recent blog posts:</p>
+	    {% for post in site.posts %}
+	        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    {% endfor %}
+	</div>
 </div>
