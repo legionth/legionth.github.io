@@ -101,8 +101,7 @@ hello
 
 ```
 
-Views as the string it looks like this:
-
+As a string the message would look like this:
 ```
 PUT / HTTP/1.1\r\nTransfer-Encoding: chunked\r\n\r\n3\r\nbla\r\n5\r\nhello\r\n
 ```
